@@ -65,11 +65,17 @@ nav a {
 	font-size: 17px;
 	padding: 7px 35px;
 	color: #23467e;
+	transition: background-color 200ms cubic-bezier(0.4, 0.5, 0.5, 0.8);
+}
+#main button:hover {
+	background-color: #77a1e4;
+	transition: background-color 200ms cubic-bezier(0.4, 0.5, 0.5, 0.8);
 }
 #main #social {
 	padding-top: 40px;
 }
 #main #social a {
+	text-decoration: none;
 	color: #fff;
 	padding: 0px 18px;
 	font-size: 20px;
