@@ -1,0 +1,31 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+/* Menu */
+.navbar {
+	padding-top: 15px;
+	background: #fff;
+	border-bottom: 0px;
+}
+.navbar-header {
+	float: right;
+	padding-right: 100px;
+	text-align: right;
+	width: auto;
+}
+.navbar a {
+	text-decoration: none;
+	color: rgb(53, 161, 43);
+}
+
+/* Header */
+#header {
+	height: 50vh;
+	background: url('../img/header.jpg');
+}
+#header .image {
+	height: 50vh;
+	background: url('../img/mobile-phone.png') no-repeat center;
+}
