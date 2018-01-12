@@ -29,3 +29,16 @@ body {
 	height: 50vh;
 	background: url('../img/mobile-phone.png') no-repeat center;
 }
+#header svg #rect-outer {
+	fill:rgb(255,255,255);
+	stroke-width:3;
+	stroke:rgba(0, 255, 76, 0.5);
+}
+#header svg #rect-inner {
+	fill:rgb(10, 202, 96);
+}
+#header svg text {
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 5%;
+}
