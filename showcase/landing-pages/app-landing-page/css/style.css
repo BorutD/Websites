@@ -25,10 +25,6 @@ body {
 	height: 50vh;
 	background: url('../img/header.jpg');
 }
-#header .image {
-	height: 50vh;
-	background: url('../img/mobile-phone.png') no-repeat center;
-}
 #header svg #rect-outer {
 	fill:rgb(255,255,255);
 	stroke-width:3;
@@ -41,4 +37,61 @@ body {
 	font-size: 14px;
 	text-transform: uppercase;
 	letter-spacing: 5%;
+}
+#header h1 {
+	text-transform: uppercase;
+	font-size: 45px;
+}
+#header p {
+	font-size: 16px;
+}
+#header ul li {
+	float: left;
+	text-decoration: none;
+	list-style-type: none;
+	text-transform: uppercase;
+	text-align: center;
+}
+#header ul li a {
+	font-size: 16px;
+	color: #fff;
+}
+#header ul li:nth-child(1) {
+	background-color: #ff358c;
+	width: 180px;
+	height: 35px;
+	padding-top: 7px;
+}
+#header ul li:nth-child(1):hover {
+	background-color: #9b1b52;
+	cursor: pointer;
+}
+#header ul li a:hover {
+	text-decoration: none;
+}
+#header ul li:nth-child(2) {
+	background-color: #9b1b52;
+	display: block;
+	width: 32px;
+	height: 35px;
+	padding-top: 5px;
+}
+#header ul li:nth-child(2):hover {
+	background-color: #6b1138;
+	cursor: pointer;
+}
+#header .right .image {
+	height: 50vh;
+	width: 20vw;
+	background: url('../img/mobile-phone.png') no-repeat center;
+}
+#header .app-content {
+	height: 35vh;
+	width: 215px;
+	background: url('../img/icon.png') no-repeat center;
+}
+#header .app-content p {
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 190px;
 }
