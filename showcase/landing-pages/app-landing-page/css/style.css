@@ -147,8 +147,6 @@ body {
 }
 #responsivnes .devices #phone {
 	position: absolute;
-	top: 80px;
-	right: 80px;
 }
 
 #responsivnes ul {
@@ -188,4 +186,64 @@ body {
 #responsivnes ul li:nth-child(2):hover {
 	background-color: #6b1138;
 	cursor: pointer;
+}
+
+/* Social */
+#social {
+	background-color: #000;
+	height: 400px;
+	position: relative;
+}
+#social .center-block {
+	float: none;
+}
+#social p {
+	position: absolute;
+	top: 120px;
+	margin: auto;
+	color: #fff;
+	display: inline;
+	border: 1px solid #fff;
+	font-size: 18px;
+	padding: 7px 60px;
+	text-transform: uppercase;
+}
+#social #icons {
+	top: 220px;
+}
+#social #icons a {
+	text-decoration: none;
+	color: #fff;
+	padding: 0px 18px;
+	font-size: 75px;
+}
+
+/* Contact */
+#contact span {
+	font-weight: bold;
+}
+#contact .form p {
+	font-size: 16px;
+}
+#contact .form input {
+	width: 80%;
+	border: 1px solid #000;
+	background-color: rgb(51, 236, 180);
+	padding: 8px 0;
+}
+#contact .form button {
+	margin-top: 10px;
+	width: 80%;
+	background-color: rgb(17, 187, 116);
+	border: none;
+	color: #fff;
+	padding: 11px 0;
+}
+#contact img {
+	padding-top: 15px;
+}
+
+/* Footer */
+footer {
+	font-size: 12px;
 }
