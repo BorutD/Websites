@@ -23,15 +23,23 @@ body {
 	background-color: transparent !important;
 	color: rgb(215, 255, 68);
 }
-#logo {
-	transform: scale(1.7);
-	-ms-transform: scale(1.7);
-	-webkit-transform: scale(1.7);
+.navbar-brand svg {
+	width: 100px;
+	height: 100px;
+	transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
 }
-#logo path {
-	fill: blue;
-	stroke: blue;
-	stroke-width: 5px;
+.navbar-brand svg path {
+	fill: transparent;
+	stroke: rgb(215, 255, 68);
+	stroke-width: 15px;
+}
+.navbar-brand svg text {
+	font-size: 60px;
+	text-transform: uppercase;
+	font-weight: bold;
+	fill: rgb(215, 255, 68);
 }
 
 /* Header */
@@ -46,6 +54,7 @@ body {
 	font-size: 100px;
 	width: 50vw;
 	margin: 0 auto;
+	padding-top: 160px;
 }
 #header #arrows {
 	padding-top: 100px;
@@ -54,4 +63,14 @@ body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+/* Product */
+#product h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 100px;
+	text-align: center;
+	padding-top: 100px;
+	color: rgb(71, 71, 71);
 }
