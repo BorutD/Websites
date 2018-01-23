@@ -21,7 +21,7 @@ body {
 }
 #navbar a:hover {
 	background-color: transparent !important;
-	color: rgb(215, 255, 68);
+	color: #d7ff44;
 }
 .navbar-brand svg {
 	width: 100px;
@@ -32,14 +32,14 @@ body {
 }
 .navbar-brand svg path {
 	fill: transparent;
-	stroke: rgb(215, 255, 68);
+	stroke: #d7ff44;
 	stroke-width: 15px;
 }
 .navbar-brand svg text {
 	font-size: 60px;
 	text-transform: uppercase;
 	font-weight: bold;
-	fill: rgb(215, 255, 68);
+	fill: #d7ff44;
 }
 
 /* Header */
@@ -71,6 +71,67 @@ body {
 	font-weight: bold;
 	font-size: 100px;
 	text-align: center;
-	padding-top: 100px;
-	color: rgb(71, 71, 71);
+	padding-top: 70px;
+	color: #636363;
+}
+#product span {
+	color: #a6ff00;
+}
+#product h3 {
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #636363;
+	padding-top: 80px;
+}
+#product p {
+	color: #636363;
+	padding-top: 30px;
+}
+#product img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+}
+#product a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 900;
+	color: #636363;
+	border: 4px solid #636363;
+	padding: 12px 24px;
+	width: 170px;
+	display: block;
+	margin: 70px auto;
+	text-align: center;
+}
+
+/* About */
+#about {
+	background-color: #d7ff44;
+}
+#about h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 100px;
+	text-align: center;
+	padding-top: 70px;
+	color: #636363;
+}
+#about img {
+	display: block;
+	margin: 40px auto;
+}
+#about hr {
+	height: 6px;
+	background-color: #636363;
+}
+#about h3 {
+	color: #636363;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+#about p {
+	color: #636363;
 }
