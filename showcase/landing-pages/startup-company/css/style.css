@@ -135,3 +135,55 @@ body {
 #about p {
 	color: #636363;
 }
+
+/* Featured */
+#featured h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 100px;
+	text-align: center;
+	padding: 70px 0;
+	color: #636363;
+}
+#featured img {
+	padding-bottom: 10px;
+}
+
+/* Contact */
+#contact {
+	background-color: #d7ff44;
+	padding-bottom: 60px;
+}
+#contact h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 100px;
+	text-align: center;
+	padding: 70px 0;
+	color: #636363;
+}
+#contact p {
+	font-weight: 900;
+}
+
+/* Map */
+#map {
+	width: 100wh;
+	height: 400px;
+}
+
+/* Demo */
+#demo h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 100px;
+	text-align: center;
+	padding: 70px 0;
+	color: #636363;
+}
+#demo h4 {
+	font-weight: bold;
+	font-size: 22px;
+	text-align: center;
+	color: #636363;
+}

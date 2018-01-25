@@ -68,19 +68,19 @@
 		<div class="container">
 			<h1>Our Technology</h1>
 			<div class="row">
-				<div class="col-lg-3 col-md-3-col-sm-3 col-lg-offset-1">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-1">
 					<h3>
 						<span>01 / </span>Fast</h3>
 					<p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to
 						add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page.</p>
 				</div>
-				<div class="col-lg-3 col-md-3-col-sm-3 col-lg-offset-1">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-1">
 					<h3>
 						<span>02 / </span>Secure</h3>
 					<p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to
 						add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page.</p>
 				</div>
-				<div class="col-lg-3 col-md-3-col-sm-3 col-lg-offset-1">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-1">
 					<h3>
 						<span>03 / </span>Easy</h3>
 					<p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to
@@ -100,7 +100,7 @@
 		<div class="container">
 			<h1>Meet Dato</h1>
 			<div class="row">
-				<div class="col-lg-3 col-md-3-col-sm-3 col-lg-offset-1">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-1">
 					<img src="img/text.png" alt="">
 					<hr>
 					<h3>Our Story</h3>
@@ -108,7 +108,7 @@
 						add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m
 						a great place for you to tell a story and let your users know a little more about you.</p>
 				</div>
-				<div class="col-lg-3 col-md-3-col-sm-3 col-lg-offset-1">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-1">
 					<img src="img/lamp.png" alt="">
 					<hr>
 					<h3>Our Vision</h3>
@@ -116,7 +116,7 @@
 						add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m
 						a great place for you to tell a story and let your users know a little more about you.</p>
 				</div>
-				<div class="col-lg-3 col-md-3-col-sm-3 col-lg-offset-1">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-1">
 					<img src="img/network.png" alt="">
 					<hr>
 					<h3>Our Technology</h3>
@@ -129,15 +129,62 @@
 	</section>
 
 	<section id="featured">
-
+		<div class="container">
+			<h1>Using Dato</h1>
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-1">
+					<img src="img/featured/stat_kings.png" alt="">
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-1">
+					<img src="img/featured/up.png" alt="">
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-1">
+					<img src="img/featured/tech_2023.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-1">
+					<img src="img/featured/lc.png" alt="">
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-1">
+					<img src="img/featured/info_data.png" alt="">
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-1">
+					<img src="img/featured/info.png" alt="">
+				</div>
+			</div>
+		</div>
 	</section>
 
 	<section id="contact">
+		<div class="container">
+			<h1>Get in touch</h1>
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-1">
+					<p>info@mysite.com</p>
+					<p>info@mysite.com</p>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-1">
+					<p>Tel: 123-456-7890</p>
+					<p>Fax: 123-456-7890</p>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-lg-offset-1">
+					<p>500 Terry Francois Street</p>
+					<p>San Francisco, CA 94158</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="map">
 
 	</section>
 
 	<section id="demo">
-
+		<div class="container">
+			<h1>Request a demo</h1>
+			<h4>Please fill your contact details below:</h4>
+		</div>
 	</section>
 
 	<section id="down-nav">
@@ -147,6 +194,19 @@
 	<footer>
 
 	</footer>
+
+	<script>
+		function myMap() {
+			var mapOptions = {
+				center: new google.maps.LatLng(51.5, -0.12),
+				zoom: 10,
+				mapTypeId: google.maps.MapTypeId.HYBRID
+			}
+			var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+		}
+	</script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCanzACzBZEq4rcomOwqfQxmkN0j7pxZBk&callback=myMap"></script>
 </body>
 
 </html>
