@@ -259,6 +259,9 @@
 		</div>
 	</footer>
 
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 	<script>
 		function myMap() {
 			var mapOptions = {
@@ -268,6 +271,23 @@
 			}
 			var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 		}
+
+
+		$(function () {
+			// Smooth Scrolling
+			$('a[href*="#"]:not([href="#"])').click(function () {
+				if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+					var target = $(this.hash);
+					target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+					if (target.length) {
+						$('html, body').animate({
+							scrollTop: target.offset().top
+						}, 1000);
+						return false;
+					}
+				}
+			});
+		});
 	</script>
 
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCanzACzBZEq4rcomOwqfQxmkN0j7pxZBk&callback=myMap"></script>

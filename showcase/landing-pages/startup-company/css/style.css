@@ -209,6 +209,12 @@ body {
 }
 
 /* Down Nav */
+#down-nav {
+	background-color: #d7ff44;	
+}
+#down-nav .row {
+	padding: 100px 0;
+}
 #down-nav svg {
 	width: 100px;
 	height: 100px;
