@@ -87,6 +87,32 @@ body {
 	transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
 }
 
+/* Motivational quote */
+#motivation {
+	background-color: rgb(236, 54, 66, 1);
+	height: 160px;
+	line-height: 140px;
+	text-align: center;
+}
+#motivation h1 {
+	text-transform: uppercase;
+	color: #fff;
+}
+#motivation span {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+}
+
+/* About me */
+#about #profile img {
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
 @font-face {
 	font-family: Lulo-Clean-W01-One-Bold;
 	src: url("https://static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/aee74cb3-c913-4b54-9722-6001c92325f2.woff2")
