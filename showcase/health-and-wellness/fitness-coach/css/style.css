@@ -105,12 +105,63 @@ body {
 }
 
 /* About me */
-#about #profile img {
-	height: 100vh;
-	width: 100%;
+.about-me-image {
+	height: 70vh;
+	background-image: url('../img/about-me.webp');
 	background-size: cover;
-    background-repeat: no-repeat;
+	background-position: center;
+}
+.about-me-text {
+	height: 70vh;
+	background-color: #1e1e1e;
+	display: block;
+}
+.about-me-text .text {
+	margin: 120px 60px;
+}
+.about-me-text h5 {
+	color: #707070;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.about-me-text h4 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 50px;
+}.about-me-text p {
+	color: #fff;
+	width: 25vw;
+}
 
+/* Services */
+#services {
+	height: 100vh;
+	background: url('../img/wokout_plan.webp') no-repeat center;
+	background-size: cover;
+}
+#services h1 {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 35px;
+	text-align: center;
+}
+#services p {
+	color: #fff;
+	text-align: center;
+}
+#services h2 {
+	font-size: 100px;
+	color: rgb(236, 54, 66, 1);
+	text-align: center;
+	font-weight: bolder;
+}
+#services .service h2 {
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	/* position: absolute; */
 }
 
 @font-face {
