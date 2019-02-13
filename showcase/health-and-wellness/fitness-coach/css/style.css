@@ -72,7 +72,7 @@ body {
 	text-align: center;
 }
 
-#bookNow {
+.bookNow {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 16px;
@@ -141,27 +141,45 @@ body {
 	background-size: cover;
 }
 #services h1 {
+	margin-top: 90px;
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 35px;
 	text-align: center;
 }
 #services p {
+	margin-top: 50px;
 	color: #fff;
 	text-align: center;
 }
-#services h2 {
+.container_row {
+	margin-top: 60px;
+    position: relative;
+}
+
+.layer1 {
+    z-index: 1;
+    height: 50px;
 	font-size: 100px;
 	color: rgb(236, 54, 66, 1);
 	text-align: center;
 	font-weight: bolder;
 }
-#services .service h2 {
+
+.layer2 {
+    z-index: 2;
+    height: 50px;
 	font-size: 20px;
 	color: #fff;
 	text-align: center;
 	text-transform: uppercase;
-	/* position: absolute; */
+}
+.bookWorkout {
+	margin-top: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 18%;
 }
 
 @font-face {
